@@ -85,7 +85,7 @@ let minecraft = [
 	'Cave Spider',
 	'Wither Skeleton',
 	'Warden',
-	'Vindicator",
+	'Vindicator',
 	'Evoker',
 	'Piglin',
 	'Piglin Brute',
