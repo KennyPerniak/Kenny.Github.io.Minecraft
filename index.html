@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Hangman</title>
+
+    <link rel="stylesheet" href="hangman.css">
+
+
+</head>
+
+<body>
+    <main>
+        <h1>!Defend against Steve!</h1>
+        <div id="gallows">
+            <img id="hangmanImage" src="hangman0.png">
+        </div>
+        <div id="word">___ _______ _______</div>
+        <br>
+        <div id="controls">
+            <input type="text" id="guessBox" class="">
+            <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Again?</button>
+            <button id="newGameButton" class="button" onclick="newGame();">New Game!</button>
+            <br>
+            <br>
+            
+        </div>
+        <br>
+        <div id="guesses"><span class="guess">A</span><span class="guess">B</span><span class="guess">C</span><span
+                class="guess">D</span><span class="guess">E</span><span class="guess">F</span><span
+                class="guess">G</span><span class="guess">H</span><span class="guess">I</span><span
+                class="guess">J</span><span class="guess">K</span><span class="guess">L</span><span
+                class="guess">M</span><span class="guess">N</span><span class="guess">O</span><span
+                class="guess">P</span><span class="guess">Q</span><span class="guess">R</span><span
+                class="guess">S</span><span class="guess">T</span><span class="guess">U</span><span
+                class="guess">V</span><span class="guess">W</span><span class="guess">X</span><span
+                class="guess">Y</span><span class="guess">Z</span></div>
+    </main>
+    <script src="hangman.js"></script>
+
+</body>
+
+</html>
